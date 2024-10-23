@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Website Store</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>Admin Panel - Kelola Produk</h1>
+    
+    <form id="upload-form">
+        <label>Nama Produk:</label>
+        <input type="text" id="product-name" required><br><br>
+
+        <label>Harga Produk:</label>
+        <input type="text" id="product-price" required><br><br>
+
+        <label>Gambar Produk (URL):</label>
+        <input type="text" id="product-image" required><br><br>
+
+        <button type="submit">Upload Produk</button>
+    </form>
+
+    <h2>Daftar Produk</h2>
+    <div id="admin-product-list"></div>
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>
